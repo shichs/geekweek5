@@ -26,9 +26,9 @@ public class WebAutoConfiguration {
         return new Klass(students);
     }
 
-    @Bean
-    public Student creatStudent() {
-        return new Student(properties.getId(), properties.getName());
-    }
+//    @Bean
+//    public Student creatStudent() {
+//        return new Student(properties.getId(), properties.getName());
+//    }
 
 }
